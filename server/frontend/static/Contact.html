@@ -1,0 +1,123 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary" style="height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="contact-container" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner">
+        <h1>Contact Us</h1>
+        <p>We're here to answer any questions about our vehicles and services. Reach out to us through any of the following channels.</p>
+    </div>
+    
+    <div style="display: flex; flex-direction: row; gap: 30px; margin-top: 30px;">
+        <!-- Contact Information -->
+        <div class="contact-info" style="width: 40%;">
+        <h2>Contact Information</h2>
+        
+        <div class="info-block" style="margin-bottom: 20px;">
+            <h3>Address</h3>
+            <p>742 Evergreen Terrace<br>
+            Springfield, Oregon 80085<br>
+            United States</p>
+        </div>
+        
+        <div class="info-block" style="margin-bottom: 20px;">
+            <h3>Phone Numbers</h3>
+            <p>Sales: (555) 123-4567<br>
+            Service: (555) 123-4568<br>
+            Parts: (555) 123-4569</p>
+        </div>
+        
+        <div class="info-block" style="margin-bottom: 20px;">
+            <h3>Email</h3>
+            <p>Sales: sales@bestcars.com<br>
+            Customer Service: support@bestcars.com<br>
+            General Inquiries: info@bestcars.com</p>
+        </div>
+        
+        <div class="info-block">
+            <h3>Business Hours</h3>
+            <p>Monday - Friday: 9:00 AM - 8:00 PM<br>
+            Saturday: 10:00 AM - 6:00 PM<br>
+            Sunday: 11:00 AM - 5:00 PM</p>
+        </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form" style="width: 60%;">
+        <h2>Send Us a Message</h2>
+        <p>Please fill out the form below and one of our representatives will contact you shortly.</p>
+        
+        <form style="margin-top: 20px;">
+            <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px;">Full Name *</label>
+            <input type="text" id="name" name="name" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" required>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;">Email Address *</label>
+            <input type="email" id="email" name="email" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" required>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+            <label for="phone" style="display: block; margin-bottom: 5px;">Phone Number</label>
+            <input type="tel" id="phone" name="phone" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+            <label for="subject" style="display: block; margin-bottom: 5px;">Subject *</label>
+            <select id="subject" name="subject" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" required>
+                <option value="">Please select</option>
+                <option value="sales">Vehicle Sales</option>
+                <option value="service">Service Department</option>
+                <option value="parts">Parts Department</option>
+                <option value="finance">Financing Options</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+            <label for="message" style="display: block; margin-bottom: 5px;">Message *</label>
+            <textarea id="message" name="message" rows="5" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" required></textarea>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+            <label style="display: flex; align-items: center;">
+                <input type="checkbox" name="newsletter" style="margin-right: 10px;">
+                Subscribe to our newsletter to receive updates on new inventory and special offers
+            </label>
+            </div>
+            
+            <button type="submit" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+        </form>
+        </div>
+    </div>
+    
+    </div>
+    
+</div>
+
+</html>
